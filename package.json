@@ -1,0 +1,14 @@
+{
+  "name": "tapermonkey-scripts",
+  "devDependencies": {
+    "@biomejs/biome": "1.7.2"
+  },
+  "private": true,
+  "scripts": {
+    "lint": "bunx @biomejs/biome check --apply scripts/"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "@types/lodash": "^4.17.0"
+  }
+}
