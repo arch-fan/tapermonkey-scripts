@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         Danbooru Tags to Stable Diffusion
 // @namespace    https://github.com/arch-fan/tapermonkey-scripts
+// @updateURL    https://raw.githubusercontent.com/arch-fan/tapermonkey-scripts/main/scripts/danbooru.js
 // @version      1.0.1
 // @description  Parse the tags of a image from danbooru to a stable diffusion prompteable tags
 // @author       arch-fan

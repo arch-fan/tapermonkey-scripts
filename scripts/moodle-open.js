@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         Open Virtual Class files instead of DL
 // @namespace    https://github.com/arch-fan/tapermonkey-scripts
+// @updateURL    https://raw.githubusercontent.com/arch-fan/tapermonkey-scripts/main/scripts/moodle-open.js
 // @version      1.0.1
 // @description  Overrides DL links of Moodle to open them instead of downloading them
 // @author       arch-fan
