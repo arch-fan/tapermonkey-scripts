@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Open Virtual Class files instead of DL
 // @namespace    https://github.com/arch-fan/tapermonkey-scripts
-// @version      1.0.0
+// @version      1.0.1
 // @description  Overrides DL links of Moodle to open them instead of downloading them
 // @author       arch-fan
 // @match        https://*/virtual-class/mod/assign/view.php*
