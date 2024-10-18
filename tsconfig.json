@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "out/",
+    "rootDir": "scripts",
+    "module": "ESNext",
+    "target": "ESNext",
+    "removeComments": false
+  },
+  "include": ["scripts/**/*.ts"]
+}

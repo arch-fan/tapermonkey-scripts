@@ -11,14 +11,16 @@
 // @grant        none
 // ==/UserScript==
 
-;(() => {
-	const filesContainer = document.querySelector(".activity-description")
+(() => {
+  const filesContainer = document.querySelector(
+    ".activity-description"
+  ) as HTMLAnchorElement;
 
-	for (const el of filesContainer.querySelectorAll("a")) {
-		const url = new URL(el.href)
+  for (const el of filesContainer.querySelectorAll("a")) {
+    const url = new URL(el.href);
 
-		url.searchParams.delete("forcedownload")
+    url.searchParams.delete("forcedownload");
 
-		el.href = url.toString()
-	}
-})()
+    el.href = url.toString();
+  }
+})();
